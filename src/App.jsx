@@ -9,6 +9,8 @@ function App() {
       className="w-full h-screen duration-200"
       style={{ backgroundColor: color }}
     >
+      
+      <h1 className="text-white flex justify-center align-middle text-3xl p-4">Background Changer</h1>
       <div className="flex flex-wrap justify-center bottom-2 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl"> 
         <button onClick={()=>{setColor("red")}} className="outline-none px-4  py-1 rounded-full text-black shadow-2xl" style={{backgroundColor:"red"}}>Red</button>
